@@ -14,7 +14,7 @@ class SolutionTest{
         val target = 9
         val expect = intArrayOf(0, 1)
 
-        val actual = instance.twoSum(nums = input, target = target)
+        val actual = instance.twoSum(numbers = input, target = target)
         assertContentEquals(expect, actual)
     }
     @Test
@@ -23,7 +23,7 @@ class SolutionTest{
         val target = 6
         val expect = intArrayOf(1,2)
 
-        val actual = instance.twoSum(nums = input, target = target)
+        val actual = instance.twoSum(numbers = input, target = target)
         assertContentEquals(expect, actual)
 
     }
@@ -33,7 +33,7 @@ class SolutionTest{
         val target = 6
         val expect = intArrayOf(0, 1)
 
-        val actual = instance.twoSum(nums = input, target = target)
+        val actual = instance.twoSum(numbers = input, target = target)
         assertContentEquals(expect, actual)
 
     }
